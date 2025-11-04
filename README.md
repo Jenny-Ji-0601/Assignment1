@@ -7,11 +7,34 @@ The analysis includes data overview, data wrangling, data visualisation and inte
 This project is important because it can inform policymakers to design more evidence-based and targeted interventions to reduce global inequality.
 
 # How users can get started with the project
-The R version needed for this project is 4.5.1 (2025-06-13). The zipped folder included R script, dataset, README.md file, main body of the report in html, and relevant figures. To reproduce the analysis, you need to install the following R packages: tidyverse, skimr, ggplot2, glue, and KableExtra.
+The R version needed for this project is 4.5.1 (2025-06-13).
+
+The compressed project folder contains:
+- R scripts (`.R` files)  
+- Dataset (`.csv`)  
+- `README.md`  
+- The main report (`.html`)  
+- Relevant figures and outputs
+- Assignment coversheet 
+
+To reproduce the analysis, install the following R packages:
+
+if (!require("pacman")) {
+  install.packages("pacman")
+}
+
+pacman::p_load(
+  tidyverse,
+  skimr,
+  ggplot2,
+  glue,
+  kableExtra
+  ) 
+
 After loading and placing the dataset, you can run the scripts and data wrangling and visualisation functions.
 
 # Where users can get help with your project
-If you encounter issues or have questions, you can email me.
+If you encounter issues or have questions, please email my UCL address.
 
 # Who maintains and contributes to the project
 This project is maintained by the candidate TZHM6.
